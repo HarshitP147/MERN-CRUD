@@ -1,0 +1,29 @@
+div.card {
+    background-color: aliceblue;
+}
+
+div.card-footer {
+    background-color: aliceblue;
+    padding-top: 1em;
+    border: none;
+}
+
+div.btn-primary {
+    background-color: #1544dd;
+    color: #ffffff;
+    width: 7rem;
+}
+div.btn-primary:hover {
+    background-color: #2f19f4;
+    color: #ffffff;
+}
+
+div.btn-danger {
+    background-color: #f12020;
+    color: #ffffff;
+    width: 7rem;
+}
+div.btn-danger:hover {
+    background-color: #b90013;
+    color: white;
+}

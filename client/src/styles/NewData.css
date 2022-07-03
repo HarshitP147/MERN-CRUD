@@ -1,0 +1,31 @@
+#new-name,
+#new-email {
+    width: 30rem;
+}
+
+#new-data {
+    flex-direction: row;
+    gap: 1em;
+}
+#new-data-btn {
+    width: 20em;
+    background-color: #1d831d;
+    color: #f0ffff;
+}
+#new-data-btn:hover {
+    background-color: #006400;
+    color: #ebe9e9;
+}
+
+@media (max-width: 767px) {
+    #new-name,
+    #new-email {
+        width: 100%;
+    }
+    #new-data {
+        flex-direction: column;
+    }
+    #new-data-btn {
+        width: 100%;
+    }
+}

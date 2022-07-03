@@ -1,0 +1,23 @@
+div.modal {
+    background-color: rgba(0, 0, 0, 0.01);
+}
+
+#update-data-btn {
+    width: 20em;
+    background-color: #1d831d;
+    color: #f0ffff;
+}
+#update-data-btn:hover {
+    background-color: #006400;
+    color: #ebe9e9;
+}
+
+div.btn-danger {
+    background-color: #f12020;
+    color: #ffffff;
+    width: 7rem;
+}
+div.btn-danger:hover {
+    background-color: #b90013;
+    color: white;
+}

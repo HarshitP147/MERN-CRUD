@@ -1,0 +1,49 @@
+body {
+    color: #101213;
+    scroll-behavior: smooth;
+}
+div#root,
+html {
+    background-image: linear-gradient(to top right, #3378ff, #9442fe);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#controller {
+    flex-direction: row;
+}
+#search {
+    width: 45%;
+}
+#new-rec {
+    width: 25%;
+    background-color: rgb(65, 36, 123);
+    color: azure;
+    text-overflow: none;
+    border: none;
+}
+
+#new-rec:hover {
+    background-color: rgb(105, 40, 166);
+}
+
+@media (max-width: 720px) {
+    #search {
+        width: 55%;
+    }
+}
+
+@media (max-width: 548px) {
+    #controller {
+        flex-direction: column;
+        gap: 1em;
+    }
+    #search {
+        width: 100%;
+        padding: 0 1rem;
+    }
+    #new-rec {
+        width: 93%;
+    }
+}
