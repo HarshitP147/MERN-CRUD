@@ -35,6 +35,4 @@ Note: The above step was for easy API calls and not having to retype the entire 
 
 You can make your own changes by forking this repository into your own or cloning it into your own local computer. For contributions make a seperate branch and make changes to the code.
 
-### This website is hosted on https://harshit-mern-crud.netlify.app/
-
 ## Thank you
